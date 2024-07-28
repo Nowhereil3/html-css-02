@@ -1,0 +1,80 @@
+/* PC */
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet and Mobile*/
+@media screen and (max-width: 991.98px) {
+  .hero .media-block .img {
+    display: none;
+  }
+
+  .hero .body {
+    flex-direction: column;
+  }
+
+  .hero .content-block {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-block .heading {
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero-summary {
+    display: none;
+  }
+
+  .popular .course-list {
+    flex-direction: column;
+  }
+
+  .features .body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .features .title,
+  .features .desc {
+    width: 80%;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .socials {
+    white-space: nowrap;
+  }
+
+  .footer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .list li a {
+    white-space: nowrap;
+  }
+}
+
+/* Table */
+@media screen and (min-width: 767.98px) and (max-width: 991.98px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+}
